@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Level 1: Server Log Breach",
+    "objective": "Capture the flag hidden in the server logs.",
+    "briefing": "🛰️ Infiltrate the backend logs of an AI-controlled server. Watch out for honeypots.",
+    "tools": ["SQL Injection", "Port Scan", "Brute Force"],
+    "vulnerabilities": ["SQL Injection"]
+  },
+  {
+    "name": "Level 2: AI Botnet Disruption",
+    "objective": "Disable the AI botnet command center.",
+    "briefing": "🧠 The AI is controlling a botnet from a shadow node. Disrupt its communications.",
+    "tools": ["XSS", "ARP Poison", "Ping Flood"],
+    "vulnerabilities": ["XSS", "Ping Flood"]
+  },
+  {
+    "name": "Level 3: Exfiltrate R&D Data",
+    "objective": "Exfiltrate encrypted R&D files without triggering alarms.",
+    "briefing": "🧪 The lab’s AI watches everything. Use covert tools to extract sensitive data without tripping alarms.",
+    "tools": ["DNS Tunneling", "Social Engineering", "Brute Force"],
+    "vulnerabilities": ["DNS Tunneling"]
+  },
+  {
+    "name": "Secret Mission: The Black Box",
+    "objective": "Trace the origin of the self-morphing AI and shut it down permanently.",
+    "briefing": "🧩 The AI has begun evolving. Deep within the system lies a black box. Your job is to break in before it activates.",
+    "tools": ["Binary Exploit", "Zero-Day", "Firmware Override"],
+    "vulnerabilities": ["Binary Exploit"],
+    "secret": true
+  }
+]
